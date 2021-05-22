@@ -8,7 +8,7 @@ import com.hubspot.page.LoginPage;
 public class LoginTest extends BaseTest {
 	
 	
-	@Test(priority=1)
+	@Test(priority=1,retryAnalyzer=Retry.RetryLogic.class)
 	public void VerifyTitle() {
 		
 		String title=driver.getTitle();
@@ -16,7 +16,7 @@ public class LoginTest extends BaseTest {
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,retryAnalyzer=Retry.RetryLogic.class)
 	public void Login() throws InterruptedException {
 		
 		page.getInstance(LoginPage.class).doLogin("7303709376", "NityaRinky100");
