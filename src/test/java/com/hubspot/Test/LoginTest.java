@@ -1,5 +1,6 @@
 package com.hubspot.Test;
 
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.hubspot.page.HomePage;
@@ -16,12 +17,28 @@ public class LoginTest extends BaseTest {
 		
 	}
 	
-	@Test(priority=2,retryAnalyzer=Retry.RetryLogic.class)
-	public void Login() throws InterruptedException {
+	@Test(priority=2,dataProvider="LoginData")
+	public void Login(String user,String pass) throws InterruptedException {
 		
-		page.getInstance(LoginPage.class).doLogin("7303709376", "NityaRinky100");
+		page.getInstance(LoginPage.class).doLogin(user, pass);
 		
 		page.getInstance(HomePage.class).postHappy();
+		
+	}
+	
+	
+	@DataProvider(name="LoginData")
+	public Object [][] getData(){
+		
+		Object[][] data= {
+				
+				{"7303709376", "NityaRinky100"}	,
+				{"7303709376", "NityaRinky"},
+				{"7303709376", "Nitya"}
+				
+				
+		};
+		return data;
 		
 	}
 
