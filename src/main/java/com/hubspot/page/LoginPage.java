@@ -22,11 +22,13 @@ public class LoginPage extends BasePage {
 		return driver.getTitle();
 	}
 	
-	public void doLogin(String user,String pwd) {
+	public Page doLogin(String user,String pwd) {
 		
 		doSendKeys(userName, user);
 		doSendKeys(passWord, pwd);
 		doClick(Login);
+		
+		return new HomePage(driver, wait);
 		
 	}
 

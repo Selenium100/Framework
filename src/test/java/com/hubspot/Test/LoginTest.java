@@ -21,7 +21,7 @@ public class LoginTest extends BaseTest {
 		
 		page.getInstance(LoginPage.class).doLogin("7303709376", "NityaRinky100");
 		
-		page.getInstance(HomePage.class).postHappy("I am good");
+		page.getInstance(HomePage.class).postHappy();
 		
 	}
 

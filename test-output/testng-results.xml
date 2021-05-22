@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18648" started-at="2021-05-22T09:38:35Z" finished-at="2021-05-22T09:38:54Z">
+  <suite name="Default suite" duration-ms="19359" started-at="2021-05-22T10:44:02Z" finished-at="2021-05-22T10:44:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18648" started-at="2021-05-22T09:38:35Z" finished-at="2021-05-22T09:38:54Z">
+    <test name="Default test" duration-ms="19359" started-at="2021-05-22T10:44:02Z" finished-at="2021-05-22T10:44:21Z">
       <class name="com.hubspot.Test.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspot.Test.LoginTest@77167fb7]" name="setup" is-config="true" duration-ms="3100" started-at="2021-05-22T15:08:35Z" finished-at="2021-05-22T15:08:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspot.Test.LoginTest@77167fb7]" name="setup" is-config="true" duration-ms="3891" started-at="2021-05-22T16:14:02Z" finished-at="2021-05-22T16:14:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifyTitle()[pri:1, instance:com.hubspot.Test.LoginTest@77167fb7]" name="VerifyTitle" duration-ms="8" started-at="2021-05-22T15:08:38Z" finished-at="2021-05-22T15:08:38Z">
+        <test-method status="PASS" signature="VerifyTitle()[pri:1, instance:com.hubspot.Test.LoginTest@77167fb7]" name="VerifyTitle" duration-ms="9" started-at="2021-05-22T16:14:05Z" finished-at="2021-05-22T16:14:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.Test.LoginTest@77167fb7]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-05-22T15:08:38Z" finished-at="2021-05-22T15:08:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.Test.LoginTest@77167fb7]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-05-22T16:14:05Z" finished-at="2021-05-22T16:14:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspot.Test.LoginTest@77167fb7]" name="setup" is-config="true" duration-ms="2650" started-at="2021-05-22T15:08:38Z" finished-at="2021-05-22T15:08:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hubspot.Test.LoginTest@77167fb7]" name="setup" is-config="true" duration-ms="2680" started-at="2021-05-22T16:14:05Z" finished-at="2021-05-22T16:14:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login()[pri:2, instance:com.hubspot.Test.LoginTest@77167fb7]" name="Login" duration-ms="12871" started-at="2021-05-22T15:08:41Z" finished-at="2021-05-22T15:08:54Z">
+        <test-method status="PASS" signature="Login()[pri:2, instance:com.hubspot.Test.LoginTest@77167fb7]" name="Login" duration-ms="12762" started-at="2021-05-22T16:14:08Z" finished-at="2021-05-22T16:14:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.Test.LoginTest@77167fb7]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-05-22T15:08:54Z" finished-at="2021-05-22T15:08:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.Test.LoginTest@77167fb7]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-05-22T16:14:21Z" finished-at="2021-05-22T16:14:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

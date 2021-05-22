@@ -35,7 +35,7 @@ public class HomePage extends BasePage {
 		doSendKeys(postTextField, value);
 	}
 	
-	public void postHappy(String value) {
+	public void postHappy() {
 		clickFeeling();
 		try {
 		Thread.sleep(2000);
