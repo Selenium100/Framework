@@ -9,7 +9,7 @@ import com.hubspot.page.LoginPage;
 public class LoginTest extends BaseTest {
 	
 	
-	@Test(priority=1,retryAnalyzer=Retry.RetryLogic.class)
+	@Test(priority=1)
 	public void VerifyTitle() {
 		
 		String title=driver.getTitle();
