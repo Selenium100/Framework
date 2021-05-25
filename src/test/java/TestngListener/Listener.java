@@ -9,7 +9,7 @@ public class Listener implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
 		
-		System.out.println("Test Start"); //good copy
+		System.out.println("Test Start"); //good copy bad
 	}
 
 	public void onTestSuccess(ITestResult result) {
